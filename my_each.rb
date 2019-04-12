@@ -1,3 +1,7 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(array)
+  
+  array.collect do |i|
+    i
 end
+
+my_each(array) {i}
